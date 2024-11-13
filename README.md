@@ -44,7 +44,25 @@ To set up the Devsphere project locally, follow these steps:
 
 2. Navigate into the project directory:
 
-  ```bash
+   ```bash
    cd devsphere
 
 3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Apply the migrations to set up the database:
+
+   ```bash
+   python manage.py migrate
+
+5. Create a superuser to access the admin panel:
+
+   ```bash
+   git clone https://github.com/yourusername/devsphere.git
+
+6. Run the development server:
+
+   ```bash
+   git clone https://github.com/yourusername/devsphere.git
