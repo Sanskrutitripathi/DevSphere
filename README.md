@@ -60,9 +60,9 @@ To set up the Devsphere project locally, follow these steps:
 5. Create a superuser to access the admin panel:
 
    ```bash
-   git clone https://github.com/yourusername/devsphere.git
+   python manage.py createsuperuser
 
 6. Run the development server:
 
    ```bash
-   git clone https://github.com/yourusername/devsphere.git
+   python manage.py runserver
